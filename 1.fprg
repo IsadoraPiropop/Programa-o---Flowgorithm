@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="isado"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-03-15 07:45:18 "/>
+        <attribute name="created" value="aXNhZG87REVTS1RPUC1KTTlURENWOzIwMjQtMDMtMTU7IjA3OjQwOjIwICI7MjgwOQ=="/>
+        <attribute name="edited" value="aXNhZG87REVTS1RPUC1KTTlURENWOzIwMjQtMDMtMTU7IjA3OjQ1OjE4ICI7MTsyOTI5"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="x" type="Integer" array="False" size=""/>
+            <assign variable="x" expression="10"/>
+            <while expression="x&gt;0">
+                <input variable="x"/>
+                <output expression="&quot;Qualquer coisa.&quot;" newline="True"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>

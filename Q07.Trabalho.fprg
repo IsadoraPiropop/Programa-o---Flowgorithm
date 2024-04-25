@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="isado"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-03-18 08:16:37 "/>
+        <attribute name="created" value="aXNhZG87REVTS1RPUC1KTTlURENWOzIwMjQtMDMtMTg7IjA3OjU0OjQ5ICI7MjgyOA=="/>
+        <attribute name="edited" value="aXNhZG87REVTS1RPUC1KTTlURENWOzIwMjQtMDMtMTg7IjA4OjE2OjM3ICI7MTsyOTMy"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="i, n&#250;mero, soma" type="Integer" array="False" size=""/>
+            <output expression="&quot;Digite um n&#250;mero&quot;" newline="True"/>
+            <input variable="n&#250;mero"/>
+            <assign variable="soma" expression="0"/>
+            <assign variable="i" expression="1"/>
+            <while expression="n&#250;mero &lt;&gt; 0">
+                <output expression="&quot;Digite um n&#250;mero&quot;" newline="True"/>
+                <input variable="n&#250;mero"/>
+                <if expression="n&#250;mero &gt;= 10 and n&#250;mero &lt;= 20">
+                    <then>
+                        <assign variable="soma" expression="soma + i"/>
+                        <assign variable="i" expression="i"/>
+                    </then>
+                    <else/>
+                </if>
+            </while>
+            <output expression="soma" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

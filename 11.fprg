@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="isado"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-03-15 10:25:12 "/>
+        <attribute name="created" value="aXNhZG87REVTS1RPUC1KTTlURENWOzIwMjQtMDMtMTU7IjEwOjA2OjAyICI7MjgwNQ=="/>
+        <attribute name="edited" value="aXNhZG87REVTS1RPUC1KTTlURENWOzIwMjQtMDMtMTU7IjEwOjI1OjEyICI7MjsyOTE2"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="continua" type="String" array="False" size=""/>
+            <declare name="quantidade, soma, idade" type="Integer" array="False" size=""/>
+            <assign variable="quantidade" expression="0"/>
+            <assign variable="soma" expression="0"/>
+            <output expression="&quot;Deseja continuar?&quot;" newline="True"/>
+            <input variable="continua"/>
+            <while expression="continua &lt;&gt; &quot;N&#227;o&quot;">
+                <assign variable="quantidade" expression="quantidade+1"/>
+                <output expression="&quot;Informe a idade&quot;" newline="True"/>
+                <input variable="idade"/>
+                <assign variable="soma" expression="soma+idade"/>
+                <output expression="&quot;Deseja continuar?&quot;" newline="True"/>
+                <input variable="continua"/>
+            </while>
+            <output expression="&quot;Foram cadastrados&quot; &amp; quantidade" newline="True"/>
+            <output expression="&quot;A soma das idades &#233;&quot; &amp; soma" newline="True"/>
+            <output expression="&quot;A m&#233;dia das idades&quot; &amp; (soma /quantidade)" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

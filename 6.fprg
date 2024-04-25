@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="isado"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-03-15 08:34:39 "/>
+        <attribute name="created" value="aXNhZG87REVTS1RPUC1KTTlURENWOzIwMjQtMDMtMTU7IjA4OjI5OjA0ICI7MjgxOQ=="/>
+        <attribute name="edited" value="aXNhZG87REVTS1RPUC1KTTlURENWOzIwMjQtMDMtMTU7IjA4OjM0OjM5ICI7NTsyOTM1"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="i, j" type="Integer" array="False" size=""/>
+            <output expression="&quot;Digite um n&#250;mero&quot;" newline="True"/>
+            <input variable="i"/>
+            <for variable="j" start="1" end="i" direction="inc" step="1">
+                <output expression="j &amp; &quot; &quot;" newline="False"/>
+            </for>
+            <assign variable="j" expression="1"/>
+            <while expression="j &lt;= i">
+                <output expression="j &amp; &quot; &quot;" newline="False"/>
+                <assign variable="j" expression="j +1"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>

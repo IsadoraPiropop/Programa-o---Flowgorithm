@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="isado"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-03-21 10:43:16 "/>
+        <attribute name="created" value="aXNhZG87REVTS1RPUC1KTTlURENWOzIwMjQtMDMtMjE7IjEwOjQwOjQ5ICI7MjgxMQ=="/>
+        <attribute name="edited" value="aXNhZG87REVTS1RPUC1KTTlURENWOzIwMjQtMDMtMjE7IjEwOjQzOjE2ICI7MTsyOTE2"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n&#250;mero, i" type="Integer" array="False" size=""/>
+            <output expression="&quot;Informe um n&#250;mero&quot;" newline="True"/>
+            <input variable="n&#250;mero"/>
+            <for variable="i" start="0" end="10" direction="dec" step="1">
+                <output expression="i * n&#250;mero" newline="True"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="isado"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-02-23 10:32:13 "/>
+        <attribute name="created" value="aXNhZG87REVTS1RPUC1OMVZBT0RVOzIwMjQtMDItMjM7IjEwOjIyOjU0ICI7MjgwNQ=="/>
+        <attribute name="edited" value="aXNhZG87REVTS1RPUC1OMVZBT0RVOzIwMjQtMDItMjM7IjEwOjMyOjEzICI7MTsyOTA5"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;Informe a base menor do trap&#233;zio em metros&quot;" newline="True"/>
+            <declare name="basemenor, basemaior, altura, comprimento" type="Real" array="False" size=""/>
+            <input variable="basemenor"/>
+            <output expression="&quot;informe a base maior do trap&#233;zio em metros&quot;" newline="True"/>
+            <input variable="basemaior"/>
+            <output expression="&quot;Informe a altura do trap&#233;zio em metros&quot;" newline="True"/>
+            <input variable="altura"/>
+            <output expression="&quot;A &#225;rea desse trap&#233;zio &#233; de  &quot; &amp; ((basemenor+basemaior)/2) &amp; &quot;m&#178;&quot;" newline="True"/>
+            <output expression="&quot;Agora informe o comprimento em metros desse trap&#233;zio&quot;" newline="True"/>
+            <input variable="comprimento"/>
+            <output expression="&quot;O volume em litros do tanque informado &#233; de  &quot;  &amp; ((((basemenor+basemaior)/2)*altura)*comprimento)*1000" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

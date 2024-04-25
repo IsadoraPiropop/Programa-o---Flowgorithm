@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="isado"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-03-15 08:03:43 "/>
+        <attribute name="created" value="aXNhZG87REVTS1RPUC1KTTlURENWOzIwMjQtMDMtMTU7IjA3OjUwOjA4ICI7MjgxNg=="/>
+        <attribute name="edited" value="aXNhZG87REVTS1RPUC1KTTlURENWOzIwMjQtMDMtMTU7IjA4OjAzOjQzICI7NDsyOTI1"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="i, j" type="Integer" array="False" size=""/>
+            <for variable="i" start="1" end="10" direction="inc" step="1">
+                <output expression="i" newline="True"/>
+            </for>
+            <assign variable="j" expression="1"/>
+            <while expression="j &lt;=10">
+                <output expression="j" newline="True"/>
+                <assign variable="j" expression="j+1"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>
